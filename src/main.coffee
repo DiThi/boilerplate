@@ -1,12 +1,12 @@
 
-hello = ->
-    console.log 'Hello world!'
+exports.hello = ->
+    # Try me, modify me, then click again without reloading the page!
+    alert 'Hello world!'
 
-if window? and document?
-    console.log "I'm in a browser!"
+init = ->
+    if window? and document?
+        console.log "I'm in a browser!"
+        window.addEventListener 'click', exports.hello
 
-if module.hot
-    module.hot.accept()
-
-
-module.exports = {hello}
+require('hot-mutate')(module)
+init()

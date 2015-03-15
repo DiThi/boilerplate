@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
-  "version": "0.0.0",
-  "description": "",
+  "name": "boilerplate-cs-hmr-sm",
+  "version": "0.0.1",
+  "description": "Simple boilerplate for CoffeeScript based projects with hot module replacement and sourcemaps",
   "repository": {
     "type": "git",
     "url": "git://github.com/DiThi/boilerplate.git"
@@ -14,6 +14,9 @@
   "author": "Alberto Torres",
   "license": "ISC",
   "dependencies": {
+    "hot-mutate": "0.0.1"
+  },
+  "devDependencies": {
     "coffee-loader": "^0.7.2",
     "coffee-script": "^1.9.1",
     "source-map-loader": "^0.1.3",

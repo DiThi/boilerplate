@@ -25,5 +25,5 @@ var server = new WebpackDevServer(webpack(config), {
     stats: { colors: true }
 })
 
-console.log('Go to http://127.0.0.1:8080/dist')
+console.log('Go to http://127.0.0.1:8080')
 server.listen(8080, 'localhost', function() {})
