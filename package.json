@@ -1,0 +1,23 @@
+{
+  "name": "boilerplate",
+  "version": "0.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DiThi/boilerplate.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dist": "node dist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alberto Torres",
+  "license": "ISC",
+  "dependencies": {
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.1",
+    "source-map-loader": "^0.1.3",
+    "webpack": "^1.7.2",
+    "webpack-dev-server": "^1.7.0"
+  }
+}
